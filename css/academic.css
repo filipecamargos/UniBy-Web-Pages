@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Source+Sans+Pro&display=swap');
+
+main{
+    background-image: url("/images/universe.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -25px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+.news-info{
+    width: 400px;
+    padding: 0px 0px 1em;
+    background-color: #F6F6F8;
+    margin: 30px;
+    margin-top: 65px;
+    
+}
+
+.news-info p{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.news-info h2{
+    color: #4EB1DA;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+
+.news-feed{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
